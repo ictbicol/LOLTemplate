@@ -20,16 +20,7 @@ class Home extends CI_Controller {
 	
 	public function index()	
 	{		
-		/*****
-		$data['pagename'] = 'Home';		
-		$this->load->helper('form');		
-		$this->load->helper('url');
-		$this->load->library('functions');			
-		$this->load->view('header', $data);		
-		$this->load->view('home');
-		$this->load->view('footer');
-		***/
-		
+			
 		$data['pagename'] = 'Home';
 		$this->load->helper('form');		
 		$this->load->helper('url');
