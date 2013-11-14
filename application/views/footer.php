@@ -154,6 +154,15 @@
 </div>
 
 <!-- Jquery Library - Put all your Jquery / Javascript Library Here -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.0.js" ></script>
+<script type="text/javascript" src="library/js/fancybox/source/jquery.fancybox.pack.js"></script>
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="library/js/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+<script  type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script type="text/javascript" src="library/js/combox/jquery.selectBox.js"></script>
+<script type="text/javascript" src="library/js/jQuery-Custom-Checkboxes.js"></script>
+<script type="text/javascript" src="library/js/watermark.js"></script>
+<script type="text/javascript" src="library/js/scripts.js"></script>
 
 
 

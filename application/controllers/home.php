@@ -29,6 +29,7 @@ class Home extends CI_Controller {
 		
 		
 		$this->template->add_css('library/js/combox/jquery.selectBox.css');
+		$this->template->add_css('library/js/fancybox/source/jquery.fancybox.css?v=2.1.5');
 		$this->template->add_css('library/css/screen.css');			
 		$this->template->write_view('header','header',$data,TRUE);
 		$this->template->write_view('content','home');
