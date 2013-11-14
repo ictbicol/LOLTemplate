@@ -16,7 +16,7 @@
 							<a href="#" class="socwid" style="margin-bottom:10px"><img src="library/images/lgn-btn-google.png" alt=""/></a>
 							<img src="library/images/lgn-btn-or.png" class="loginor" alt=""/>
 						<?php
-							echo form_open('');
+							echo form_open('#');
 							$attributes = array('name'=>'email','class'=>'text emailadds');
 							echo '<p>'.form_input($attributes).'</p>';
 							$attributes = array('type'=>'password','name'=>'password','class'=>'text pass');
@@ -28,7 +28,7 @@
 						?>                        
 						<p class="rememberselect">
 									<!--<input id="remember" type="checkbox" name="remember" value="1">Remember me | -->
-									<a style="float:none; background-color: #fff; color:#000" href="#">Forgot Password&nbsp; |</a><a style="float:none; background-color: #fff; color:#000" href="#">New User</a>									</p>
+									<a style="float:none; background-color: #fff; color:#000" href="#">Forgot Password&nbsp; |</a><a style="float:none; background-color: #fff; color:#000" href="#signup" class="fbox">New User</a>									</p>
 						<?php echo form_close(); ?>
 					</div>
 						</li>
@@ -260,3 +260,4 @@
 	</div>
   <!--end advance-search-->
 </div><!--end header-->
+

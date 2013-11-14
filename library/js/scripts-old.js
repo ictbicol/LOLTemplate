@@ -43,7 +43,7 @@ if(sibelem.is(":hidden")){
 	$(this).siblings(".view").css("display","block")
 	}else{
 		$(this).removeClass("active").next(".box").slideUp()
-	$(this).siblings(".view").css("display","none")
+	    $(this).siblings(".view").css("display","none")
 		}
 	
 	return false;
@@ -81,11 +81,7 @@ $(" .gallery-view .thumbs ul li").append("<div class='indicator' ></div>")
 
  	$(".homefactscol input[type=text]").Watermark("e.g. 'pool,' 'office,' or 'fireplace.' ","#b4b4b4");
  	$(".sidebar .searchwid input[type=text]").Watermark("Search"	,"#a1a1a1");
-	$(".email").Watermark("Email","#333333");
-	$(".pass").Watermark("Password","#333333");
-	$(".reppass").Watermark("Repeat Password","#333333");
-	$(".carddate").Watermark("MM/YY","#676767");
-	$(".cardcode").Watermark("CVC","#676767");
+	
 /*Galley View*/
 
 $(".gallery-view .thumbs li").click(function(){
@@ -96,24 +92,7 @@ $(".gallery-view .thumbs li").removeClass("active")
 	$(".illustrateimg img").eq(indexcount ).stop(false,true).fadeIn("slow");
 	return false;
 })
- $(".fbox").fancybox({
-		autoHeight: true,
-		height:"autoSize"
-	});
 	
-$(".creditbtn").click(function(){
-
-	if($(".paymentmethod").is(":hidden")){
-		$(".paymentmethod").fadeIn("slow");
-		$("#step03 .center").css("width","auto");
-	}else{
-	
-	}
-})
-$(".close").click(function(){
-$(".paymentmethod").css("display","none")
-		$("#step03 .center").css("width","340px");
-})
 }); //document.ready()
 
 

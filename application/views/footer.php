@@ -37,15 +37,125 @@
 		</div>
 	</div> 
 </div>
+
+<!--start signup-->
+<div style="display:none;">
+	<div class="signup-plan" id="signup">
+			<div class="form left">
+				<div class="rateprice yellow">
+					<p>$25.00</p><br/>
+					<span>month</span>
+				</div>
+				<div class="container">
+					<p>Neque porro quisquam est, qui dolorem ipsum quiat enim ad minima.</p>
+					<div class="option">
+						<a href="#">Neque porro quisquam est</a>
+						<a href="#">Sed ut perspiciatis unde</a>
+						<a href="#">Neque porro quisquam </a>
+						
+					</div>
+					<a href="#step02" class="btn signupbtn fbox">Sign Up</a>
+				</div>
+			</div>
+			<div class="form right">
+				<div class="rateprice blue">
+					<p>$25.00</p><br/>
+					<span>month</span>
+				</div>
+				<div class="container">
+					<p>Neque porro quisquam est, qui dolorem ipsum quiat enim ad minima.</p>
+					<div class="option">
+						<a href="#">Neque porro quisquam est</a>
+						<a href="#">Sed ut perspiciatis unde</a>
+						<a href="#">Neque porro quisquam </a>
+						
+					</div>
+					<a href="#step02" class="btn signupbtn fbox">Sign Up</a>
+				</div>
+			</div>
+		</div><!--end signup-plan-->
+	</div>
+<!--end signup-->
+
+<div style="display:none">
+	<div class="signupform" id="step02">
+		<div class="tabs">
+			<a href="#" class="active">Sign up</a>
+			<a href="#" class="last">Payment</a>
+		</div>
+		<div class="tcontent">
+			<div class="form">
+				<p>
+					<input type="text" class="text email"/>
+				</p>
+				<p>
+					<input type="text" class="text pass"/>
+				</p>
+				<p>
+					<input type="text" class="text reppass"/>
+				</p>
+				<p>
+					<input type="checkbox" name="condo" value="condo" id="condo"/>
+					<label>Send me a copy of terms and services.</label>
+				</p>
+				<a href="#step03" class="fbox btn submitbtn">Submit</a>
+			
+			</div>
+		</div>
+	</div>
+</div>
 <!-- Jquery Library - Put all your Jquery / Javascript Library Here -->
 
-<script src="http://code.jquery.com/jquery-1.9.0.js" type="text/javascript"></script>
-<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js" type="text/javascript"></script>
-<script type="text/javascript" src="library/js/combox/jquery.selectBox.js"></script>
-<script type="text/javascript" src="library/js/jQuery-Custom-Checkboxes.js"></script>
-<script type="text/javascript" src="library/js/watermark.js"></script>
-<script type="text/javascript" src="library/js/scripts.js"></script>
+<div style="display:none">
+	<div class="signupform" id="step03">
+		<div class="center">
+			<div class="tabs">
+				<a href="#" >Sign up</a>
+				<a href="#" class="last active">Payment</a>
+			</div>
+			<div class="tcontent">
+				<div class="form">
+					<div class="textconfirm"><p>Complete your payment!</p></div>
+					<div class="btnset">
+						<a href="#" class="btn creditbtn">Pay by Credit Card</a>
+						<a href="#" class="btn paypalbtn">Pay by Paypal</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="paymentmethod">
+			<h5>Lol</h5>
+			<div class="forms">
+				<p>
+				<label>Card No.</label>
+				<input type="text" class="text cardno"/>
+				</p>
+				
+				<p class="last">
+				<label>Card Date.</label>
+				<input type="text" class="text carddate"/>
+				</p>
+				
+				<p>
+				<label>Name on Card</label>
+				<input type="text" class="text cardname"/>
+				</p>
+				
+				<p class="last">
+				<label>Card code</label>
+				<input type="text" class="text cardcode"/>
+				</p>
+				<input type="submit" class="btn purchasebtn"/>
+			</div>
+			<div class="arrowleft"></div>
+			<a class="close"></a>
+		</div>
+	</div>
+</div>
 
-</body>
-</html>
+<!-- Jquery Library - Put all your Jquery / Javascript Library Here -->
+
+
+
+
         

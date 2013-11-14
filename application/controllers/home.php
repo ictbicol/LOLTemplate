@@ -35,7 +35,11 @@ class Home extends CI_Controller {
 		$this->template->write_view('footer','footer');
 		
 		$this->template->render();		
-	}			
+	}	
+	
+	public function signup(){
+		$this->load->view('signup');
+	}		
 	
 }
 
