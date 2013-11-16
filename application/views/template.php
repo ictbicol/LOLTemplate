@@ -6,9 +6,9 @@
 	<meta name="keywords" content="filming locations, film locations, location scout, filming locations los angeles">
     <title>Lights on Location | <?php echo $pagename; ?></title>
     <link rel="shortcut icon" href="library/favicon.png" type="image/x-icon" />
-	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" /> 
-    
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />     
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900,700,600,300italic' rel="stylesheet" type='text/css' />
+    
     <?php echo $_styles; ?>    
 </head>
 <body>

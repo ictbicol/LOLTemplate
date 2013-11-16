@@ -26,13 +26,21 @@
 		</div>
 		<div class="bottomfooter">
 			<div class="copy">
-				<a href="#" class="first">Copyright 2013 Lightsonlocations.com  </a>
-				<a href="#">Terms of use </a>
+            	<?php
+					$attributes = array('class'=>'first');
+					echo anchor('','Copyright 2013 Lightsonlocations.com',$attributes);
+					echo anchor('','Terms of use');
+				?>
 			</div>
 			<div class="socials">
-				<a href="#" class="btn tweet">Twitter</a>
-				<a href="#" class="btn fb">fb</a>
-				<a href="#" class="btn googleplus">Google+</a>
+            	<?php
+					$attributes = array('class'=>'btn tweet');
+					echo anchor('','Twitter',$attributes);
+					$attributes = array('class'=>'btn fb');
+					echo anchor('','fb',$attributes);
+					$attributes = array('class'=>'btn googleplus');
+					echo anchor('','Google+',$attributes); 				
+				?>
 			</div>
 		</div>
 	</div> 
