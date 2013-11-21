@@ -11,7 +11,10 @@
 		<div class="col right country">
 			<h5>Post your property</h5>
 			<div class="flags">
-				<a href="#"><img src="library/images/english-flag.jpg" alt=""/>English</a>
+            	<?php
+					$img = array('src'=>'library/images/english-flag.jpg');
+					echo anchor('',img($img).'English');
+				?>				
 				<a href="#"><img src="library/images/deutsch-flag.jpg" alt=""/>Deutsch</a>
 				<a href="#"><img src="library/images/francais-flag.jpg" alt=""/>Francais</a>
 				<a href="#"><img src="library/images/portugues-flag.jpg" alt=""/>Portugues</a>

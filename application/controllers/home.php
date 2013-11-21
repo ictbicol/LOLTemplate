@@ -24,6 +24,7 @@ class Home extends CI_Controller {
 		$data['pagename'] = 'Home';
 		$this->load->helper('form');		
 		$this->load->helper('url');
+		$this->load->helper('html');
 		$this->load->library('functions');
 		$this->load->library('template');
 		

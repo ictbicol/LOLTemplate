@@ -9,8 +9,7 @@ $(document).ready(function(){
 			
 		}else{
 			$(".advancesearchoption a").css("color","#fff");
-		$(".advance-search").slideDown( "slow", function() {
-	
+			$(".advance-search").slideDown( "slow", function() {	
 			$(".advancesearchoption").css("border-bottom","3px solid #E4A01E");
 });
 			

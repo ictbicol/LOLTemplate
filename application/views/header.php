@@ -16,7 +16,7 @@
 							<a href="#" class="socwid" style="margin-bottom:10px"><img src="library/images/lgn-btn-google.png" alt=""/></a>
 							<img src="library/images/lgn-btn-or.png" class="loginor" alt=""/>
 						<?php
-							echo form_open('#');
+							echo form_open('');
 							$attributes = array('name'=>'email','class'=>'text emailadds');
 							echo '<p>'.form_input($attributes).'</p>';
 							$attributes = array('type'=>'password','name'=>'password','class'=>'text pass');
@@ -54,20 +54,20 @@
                </div>
 			
 			<div class="advancesearchoption">
-		<div class="inner">
-			<div >
-				<a href="#">Rates</a>
-				<a href="#">Size</a>
-				<a href="#">Omit Feature</a>
-			<a href="#" class="btn advancesearchbtn">Advanced search</a>			</div>
-		</div>
-	</div>
+                <div class="inner">
+                    <div >
+                        <a href="#">Rates</a>
+                        <a href="#">Size</a>
+                        <a href="#">Omit Feature</a>
+                        <a href="#" class="btn advancesearchbtn">Advanced search</a>			
+                    </div>
+                </div>
+			</div>
 		</div>
 	</div>
 <!--end search-->
-	<div class="advance-search">
-		<div class="inner">
-			
+	<div class="advance-search" style="display:none">
+		<div class="inner">		
 
 			<div class="menusearch">
 				<ul>
